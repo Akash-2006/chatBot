@@ -5,15 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
       article {
-        width: 600px;
-        height: 600px;
+        width: 700px;
+        height: 700px;
         margin: 10% auto;
         border: 1px solid rgba(0, 0, 0, 0.4);
+        padding: 90px;
+        font-family: sans-serif;
+      }
+      #heading {
+        font-size: 50px;
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.7);
+      }
+      .line {
+        margin-top: 30px;
+        width: 100px;
+        height: 5px;
+        background-color: black;
       }
     </style>
   </head>
   <body>
-    <article></article>
+    <article>
+      <h1 id="heading">Build your first chatbot in 10 minutes!</h1>
+      <div class="line"></div>
+      <p></p>
+    </article>
   </body>
 </html>
